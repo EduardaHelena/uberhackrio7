@@ -10,6 +10,7 @@ import { CaronaComponent } from './carona/carona.component';
 import { CorridaComponent } from './corrida/corrida.component';
 import { MapaComponent } from './mapa/mapa.component';
 import { MenuComponent } from './menu/menu.component';
+import { MolduraComponent } from './moldura/moldura.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MenuComponent } from './menu/menu.component';
     CaronaComponent,
     CorridaComponent,
     MapaComponent,
-    MenuComponent
+    MenuComponent,
+    MolduraComponent
   ],
   imports: [
     BrowserModule,
