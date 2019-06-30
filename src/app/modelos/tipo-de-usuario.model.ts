@@ -1,0 +1,5 @@
+
+enum TipoDeUsuario {
+    usuario,
+    motorista
+}
