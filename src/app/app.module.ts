@@ -9,6 +9,7 @@ import { ListaDeCaronasComponent } from './lista-de-caronas/lista-de-caronas.com
 import { CaronaComponent } from './carona/carona.component';
 import { CorridaComponent } from './corrida/corrida.component';
 import { MolduraDeCelularComponent } from './moldura-de-celular/moldura-de-celular.component';
+import { MapaComponent } from './mapa/mapa.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MolduraDeCelularComponent } from './moldura-de-celular/moldura-de-celul
     ListaDeCaronasComponent,
     CaronaComponent,
     CorridaComponent,
-    MolduraDeCelularComponent
+    MolduraDeCelularComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule,
