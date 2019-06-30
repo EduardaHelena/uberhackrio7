@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-carona',
+  selector: 'carona',
   templateUrl: './carona.component.html',
   styleUrls: ['./carona.component.scss']
 })
