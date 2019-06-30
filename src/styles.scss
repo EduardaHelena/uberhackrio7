@@ -1,7 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
 @import "~@universal-material/core/scss/universal-material-no-reboot";
 //---------------------------------------------------------------------------
 // Material Design Icons (https://materialdesignicons.com/)
 //---------------------------------------------------------------------------
 $mdi-font-path: "~@mdi/font/fonts";
 @import "~@mdi/font/scss/materialdesignicons.scss";
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+}

@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class MapaComponent implements OnInit {
 
   itens : any[] = [
-    {Titulo: 'teste0'},
-    {Titulo: 'teste1'},
-    {Titulo: 'teste2'},
-    {Titulo: 'teste3'}
+    {Titulo: 'Barra da Tijuca'},
+    {Titulo: 'Copacabana'},
+    {Titulo: 'Estácio'},
+    {Titulo: 'Botafogo'}
   ];
   constructor() { }
 
