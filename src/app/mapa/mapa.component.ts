@@ -12,12 +12,7 @@ export class MapaComponent implements OnInit {
     {Titulo: 'teste1'},
     {Titulo: 'teste2'},
     {Titulo: 'teste3'},
-    {Titulo: 'teste4'},
-    {Titulo: 'teste5'},
-    {Titulo: 'teste6'},
-    {Titulo: 'teste7'},
-    {Titulo: 'teste8'},
-    {Titulo: 'teste9'},
+    
   ];
   constructor() { }
 
