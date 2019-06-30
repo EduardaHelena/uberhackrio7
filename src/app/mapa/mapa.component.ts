@@ -11,8 +11,7 @@ export class MapaComponent implements OnInit {
     {Titulo: 'teste0'},
     {Titulo: 'teste1'},
     {Titulo: 'teste2'},
-    {Titulo: 'teste3'},
-    
+    {Titulo: 'teste3'}
   ];
   constructor() { }
 
