@@ -8,6 +8,7 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { ListaDeCaronasComponent } from './lista-de-caronas/lista-de-caronas.component';
 import { CaronaComponent } from './carona/carona.component';
 import { CorridaComponent } from './corrida/corrida.component';
+import { MolduraDeCelularComponent } from './moldura-de-celular/moldura-de-celular.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CorridaComponent } from './corrida/corrida.component';
     PerfilComponent,
     ListaDeCaronasComponent,
     CaronaComponent,
-    CorridaComponent
+    CorridaComponent,
+    MolduraDeCelularComponent
   ],
   imports: [
     BrowserModule,
