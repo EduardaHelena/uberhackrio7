@@ -1,88 +1,90 @@
 #body {
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-  background-position: center;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    background-size: cover;
+    background-position: center;
 }
 
-.loginbox{
-  with: 320px;
-  height: 420px;
-  background: #FEFEFE;
-  color: #121111;
-  top: 50%;
-  left: 40%;
-  position: absolute;
-  transform: translate(-50%,-50%);
-  box-sizing: border-box;
-  padding: 50px 30px;
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: #FEFEFE;
+    color: #121111;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
 }
 
-.avatar{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: absolute;
-  top: -50px;
-  left: calc(50% - 50px);
+.logo {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 20%;
 }
 
-h1{
-  margin: 0;
-  padding: 0 0 20px;
-  text-align: center;
-  font-size: 22px;
+h1 {
+    margin: 0;
+    padding: 40px 0 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
 }
 
-.loginbox p{
-  margin: 0;
-  padding: 5;
-  font-weight: bold;
+.loginbox .subtitle {
+    text-align: center;
+    margin: 0 0 30px !important;
 }
 
-.loginbox input{
-  width: 140%;
-  margin-bottom: 20px;
+.loginbox p {
+    margin: 0;
+    padding: 5;
+    font-weight: bold;
 }
 
-.loginbox input[type="text"], input[type="password"]
-{
-  border: none;
-  border-bottom: 1px solid #121111;
-  background: transparent;
-  outline: none;
-  height: 50px;
-  color: #121111;
-  font-size: 15px;
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-.loginbox input[type="submit"]
-{
-  border:none;
-  outline:none;
-  height:40px;
-  background: #121111;
-  color:#fff;
-  font-size: 18px;
-  border-radius: 20px;
+.loginbox input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #121111;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    color: #121111;
+    font-size: 15px;
 }
 
-.loginbox input[type="submit"]:hover
-{
-  cursor: pointer;
-  background: blue;
-  color: #000;
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #82BAEE;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
-.loginbox a{
-  text-decoration: none;
-  font-size: 12px;
-  line-height: 20px;
-  color: black;
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #6BA8E1;
+    color: #fff;
 }
 
-.loginbox a:hover
-{
-  color: blue;
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+}
+
+.loginbox a:hover {
+    color: blue;
 }
