@@ -8,8 +8,8 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { ListaDeCaronasComponent } from './lista-de-caronas/lista-de-caronas.component';
 import { CaronaComponent } from './carona/carona.component';
 import { CorridaComponent } from './corrida/corrida.component';
-import { MolduraDeCelularComponent } from './moldura-de-celular/moldura-de-celular.component';
 import { MapaComponent } from './mapa/mapa.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +19,8 @@ import { MapaComponent } from './mapa/mapa.component';
     ListaDeCaronasComponent,
     CaronaComponent,
     CorridaComponent,
-    MolduraDeCelularComponent,
-    MapaComponent
+    MapaComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

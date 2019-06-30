@@ -1,0 +1,9 @@
+<div [style.width]="open ? '250px' :0" class="sidenav">
+    <a [routerLink]="" class="closebtn" (click)="closeNav()">&times;</a>
+    <a routerLinkActive="active" routerLink="/login">Login</a>
+    <a routerLinkActive="active" routerLink="/mapa">Mapa</a>
+    <a routerLinkActive="active" routerLink="/corrida">Corrida</a>
+    <a routerLinkActive="active" routerLink="/carona">Carona</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" (click)="openNav()">&#9776;</span>
